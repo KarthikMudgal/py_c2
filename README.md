@@ -4,37 +4,8 @@ A remote orchestration simulator written in Python. It mimics high-level command
 
 Run "server help" for a list of simulator commands and options.
 
-`karth@HP:~$ server --help
-karth@HP:~$ server help
-Client Commands:
-client download FILENAME - transfer a file from the server to the client
-client upload FILENAME - transfer a file from the client to the server
-client zip FILENAME - zip and encrypt a file on the client
-client unzip FILENAME - unzip and decrypt a file on the client
-client kill - permanently shutdown the active client
-client delay SECONDS - change the delay setting for a client's reconnection attempts (coming soon)
-client delay SECONDS - change the delay setting for a client's reconnection attempts
-client get clipboard - grab a copy of the client's clipboard
-client keylog on - start up a keylogger on the client
-client keylog off - turn off the keylogger on the client and write the results to disk
-client type TEXT - type the text of your choice on a client's keyboard
-client screenshot - grab a copy of the client's screens
-client display IMAGE - display an image on the client's screen
-client flip screen - flip a client's screen upside down (Windows only)
-client rotate screen - rotate a client's screen (Windows only)
-client max sound - turn a client's volume all the way up
-client play FILENAME.wav - play a .wav sound file on the client (Windows only)
-* - run an OS command on the client that doesn't require input
-* & - run an OS command on the client in the background
+<img width="1028" height="599" alt="image" src="https://github.com/user-attachments/assets/a5434bc5-f0d2-4c5d-b94c-b77492a90beb" />
 
-Server Commands:
-server show clients - print an active listing of our pwned clients
-server control PWNED_ID - change the active client that you have a prompt for
-server zip FILENAME - zip and encrypt a file in the outgoing folder on the server
-server unzip FILENAME - unzip and decrypt a file in the incoming folder on the server
-server exit - gracefully shuts down the server
-server list DIRECTORY - obtain a file listing of a directory on the server
-server shell - obtain a shell on the server`
 
 # Technologies
 - Python 3.9+
