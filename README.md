@@ -1,11 +1,12 @@
-## Overview
+# py_c2: Command And Control
 
+## Overview
 A remote orchestration simulator written in Python. It mimics high-level command-and-control patterns for learning, detection testing, and incident response practice — only using non-destructive, auditable actions.
 
-# Technologies
+## Technologies
 - Python 3.9+
 
-# Installation
+## Installation
 1. Clone the repository
 ```bash
 git clone https://github.com/KarthikMudgal/py_c2
@@ -40,7 +41,7 @@ pip install -r requirements.txt
 
 You should see the same packages as listed in requirements.txt.
 
-# Usage 
+## Usage 
 1. On the target device run the ```c2_client.py``` file
 ```bash
 sudo python3 c2_client.py
