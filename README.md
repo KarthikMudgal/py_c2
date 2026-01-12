@@ -16,8 +16,8 @@ Run "server help" for a list of simulator commands and options.
 
 # Installation
 1. Clone the repository
-git clone https://github.com/KarthikMudgal/py_c2
-cd py_c2
+`git clone https://github.com/KarthikMudgal/py_c2`
+`cd py_c2`
 
 2. Create and activate a virtual environment
 On Windows:
